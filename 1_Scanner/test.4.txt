@@ -1,0 +1,6 @@
+void main(void)
+{
+	int i; int x[5];
+	
+	i = 0;
+/*

@@ -1,0 +1,11 @@
+int foo(int n)
+{
+	return n + 1;
+}
+/* wrong type of parameter <-> argument */
+int main(void)
+{
+	int a[5];
+
+	return foo(a);
+}

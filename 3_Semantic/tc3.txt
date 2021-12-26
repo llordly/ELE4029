@@ -1,0 +1,7 @@
+/* void var & arr */
+void a;
+void A[5];
+int main(void)
+{
+	return 0;
+}

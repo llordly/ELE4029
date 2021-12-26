@@ -1,0 +1,13 @@
+void foo(int n)
+{
+}
+int main(void)
+{
+    int a;
+    
+    /* invalid assign */
+    a = foo(5);
+    
+    /* invalid return */
+    return;
+}

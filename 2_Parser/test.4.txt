@@ -1,0 +1,6 @@
+int main(void a[])
+{
+	void b;
+	int c;
+	d[1] = b + c;
+}

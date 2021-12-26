@@ -1,0 +1,14 @@
+int foo(int n)
+{
+	return n + 1;
+}
+int a;
+int a;
+/* wrong # of parameter <-> argument */
+int main(void)
+{
+	int a;
+	int b;
+
+	return foo(a,b);
+}

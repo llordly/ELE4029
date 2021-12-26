@@ -1,0 +1,12 @@
+int main(void)
+{
+    /* void variable */
+    void c;
+    int a[5];
+    int b[4];
+    int arr[2];
+    /* array type index & void type index error */
+    arr[1] = b[c];
+    arr[2] = b[a];
+    return 0;
+}

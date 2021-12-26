@@ -1,0 +1,21 @@
+int max(int a, int b)
+{
+	if(a > b) return a;
+	else return b;
+}
+
+int main(int a[], int b, void c[], void d)
+{
+	int x[4]; int y;
+	int z[10];
+	z[4] = 5 + 3 * 4;
+	a[1] = b + d;
+	
+	x = max(max(x, y), z[1]);
+	while(x < 5)
+	{
+		x = x / 2 + 1;
+	}
+	
+	return z[5];
+}
