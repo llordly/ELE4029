@@ -61,7 +61,7 @@ Computer Software engineering Department 2017029589 류지범
 
 - DFA of Comment
 
-  - <img src="/Users/lordly/Library/Application Support/typora-user-images/image-20211029011339416.png" alt="image-20211029011339416" style="zoom: 20%;" />
+  - <img src="https://github.com/llordly/ELE4029/blob/master/1_Scanner/dfa.png?raw=true" alt="image-20211029011339416" style="zoom: 20%;" />
 
   - `'/'`이 나오면 `INOVER`로 가고 그 후에 `'*'`이 나오지 않을 경우엔 `OVER`로 취급하고 `DONE`으로 간다. `'*'`이 나올 경우엔 주석 상태로 진입하고 `INCOMMENT`로 간다.
 
