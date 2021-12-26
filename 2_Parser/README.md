@@ -1,5 +1,5 @@
 ---
-Title: project #1. Parser
+Title: project #2. Parser
 date: 2021-11-25
 Computer Software engineering Department 2017029589 류지범
 ---
@@ -269,25 +269,17 @@ Computer Software engineering Department 2017029589 류지범
 
 
 
-
-
-
-
-
-
 # #4 Result
 
 - test case 1, 2는 주어진 것을 사용했다.
 
   - test.1.txt
 
-    <img src="/Users/lordly/Desktop/Hanyang/2021_2학기/Compilers/test1.png" alt="test1" style="zoom:25%;" />
+    <img src="https://github.com/llordly/ELE4029/blob/master/2_Parser/test1.png?raw=true" alt="test1" style="zoom:25%;" />
 
   - test.2.txt
 
-    <img src="/Users/lordly/Desktop/Hanyang/2021_2학기/Compilers/test2.png" alt="test2" style="zoom:25%;" />
-
-
+    <img src="https://github.com/llordly/ELE4029/blob/master/2_Parser/test2.png?raw=true" alt="test2" style="zoom:25%;" />
 
 
 
@@ -295,41 +287,13 @@ Computer Software engineering Department 2017029589 류지범
 
   - test.3.txt (Dangling Else Problem)
 
-  <img src="/Users/lordly/Desktop/Hanyang/2021_2학기/Compilers/test3.png" alt="test3" style="zoom:50%;" />
+  <img src="https://github.com/llordly/ELE4029/blob/master/2_Parser/test3.png?raw=true" alt="test3" style="zoom:50%;" />
 
   - test.4.txt
 
-    <img src="/Users/lordly/Desktop/Hanyang/2021_2학기/Compilers/test4.png" alt="test4" style="zoom:50%;" />
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
+    <img src="https://github.com/llordly/ELE4029/blob/master/2_Parser/test4.png?raw=true" alt="test4" style="zoom:50%;" />
 
   - test.5.txt
 
-  <img src="/Users/lordly/Desktop/Hanyang/2021_2학기/Compilers/test5.png" alt="test5" style="zoom:40%;" />
+  <img src="https://github.com/llordly/ELE4029/blob/master/2_Parser/test5.png?raw=true" alt="test5" style="zoom:40%;" />
 

@@ -73,7 +73,7 @@ Computer Software engineering Department 2017029589 류지범
 
   - ```c
     						case INOVER:
-      								save = FALSE;
+          								save = FALSE;
                     if (c == '*') {
                         state = INCOMMENT;
                     }
@@ -102,7 +102,7 @@ Computer Software engineering Department 2017029589 류지범
                         currentToken = ENDFILE;
                     }
                     else if (c == '/') state = START;
-            				else if (c == '*') state = INCOMMENT_;
+                      				else if (c == '*') state = INCOMMENT_;
                     else state = INCOMMENT;
                     break;
                 case INASSIGN:
@@ -134,11 +134,11 @@ Computer Software engineering Department 2017029589 류지범
   
   - test.1.txt
   
-    <img src="/Users/lordly/Library/Application Support/typora-user-images/image-20211029014754404.png" alt="image-20211029014754404" width = "500" height = "500"/>
+    <img src="https://github.com/llordly/ELE4029/blob/master/1_Scanner/scan1.png?raw=true" alt="image-20211029014754404" width = "500" height = "500"/>
   
   - test.3.txt (i generate test case) 
   
-    <img src="/Users/lordly/Library/Application Support/typora-user-images/image-20211029014354181.png" alt="image-20211029014354181" style="zoom:50%;"/>
+    <img src="https://github.com/llordly/ELE4029/blob/master/1_Scanner/scan2.png?raw=true" alt="image-20211029014354181" style="zoom:50%;"/>
 
 # #2 cminus_lex
 
@@ -183,8 +183,8 @@ Computer Software engineering Department 2017029589 류지범
   
   ## result
 
-  - test.1.txt<img src="/Users/lordly/Library/Application Support/typora-user-images/image-20211029020418254.png" alt="image-20211029020418254" width = "500" height = "500"/>
+  - test.1.txt<img src="https://github.com/llordly/ELE4029/blob/master/1_Scanner/l1.png?raw=true" alt="image-20211029020418254" width = "500" height = "500"/>
 
   - test.3.txt and test.4.txt (i generate test case)
 
-     <img src="/Users/lordly/Library/Application Support/typora-user-images/image-20211029025221741.png" alt="image-20211029020949371" width = "400" height = "400"/>
+     <img src="https://github.com/llordly/ELE4029/blob/master/1_Scanner/l2.png?raw=true" alt="image-20211029020949371" width = "400" height = "400"/>

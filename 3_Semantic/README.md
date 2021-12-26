@@ -177,18 +177,18 @@ Computer Software engineering Department 2017029589 류지범
 
 - 주어진 test case에 대한 symbol table은 다음과 같다.
 - test.1.txt
-  - <img src="/Users/lordly/Desktop/Hanyang/2021_2학기/Compilers/무제 폴더/result1.png" alt="result1" style="zoom:40%;" />
+  - <img src="https://github.com/llordly/ELE4029/blob/master/3_Semantic/result1.png?raw=true" alt="result1" style="zoom:40%;" />
 
 
 
 
 
 - test.2.txt
-  - <img src="/Users/lordly/Desktop/Hanyang/2021_2학기/Compilers/무제 폴더/result2.png" alt="result2" style="zoom:25%;" />
+  - <img src="https://github.com/llordly/ELE4029/blob/master/3_Semantic/result2.png?raw=true" alt="result2" style="zoom:25%;" />
 
 - 개인적으로 만든 test case에 대한 symbol table은 다음과 같다.
 - test.3.txt
-  - <img src="/Users/lordly/Desktop/Hanyang/2021_2학기/Compilers/무제 폴더/result3.png" alt="result3" style="zoom:30%;" />
+  - <img src="https://github.com/llordly/ELE4029/blob/master/3_Semantic/result3.png?raw=true" alt="result3" style="zoom:30%;" />
 
 
 
@@ -198,7 +198,7 @@ Computer Software engineering Department 2017029589 류지범
 
   - redefined error & different number of arg and param
 
-    - <img src="/Users/lordly/Desktop/Hanyang/2021_2학기/Compilers/무제 폴더/tc1.png" alt="tc1" style="zoom:50%;" />
+    - <img src="https://github.com/llordly/ELE4029/blob/master/3_Semantic/tc1.png?raw=true" alt="tc1" style="zoom:50%;" />
 
     - ```
       ❯ ./cminus_semantic tc1.txt                                                                 ─╯
@@ -210,7 +210,7 @@ Computer Software engineering Department 2017029589 류지범
 
   - different type of arg and param
 
-    - <img src="/Users/lordly/Desktop/Hanyang/2021_2학기/Compilers/무제 폴더/tc2.png" alt="tc2" style="zoom:50%;" />
+    - <img src="https://github.com/llordly/ELE4029/blob/master/3_Semantic/tc2.png?raw=true" alt="tc2" style="zoom:50%;" />
 
     - ```
       ❯ ./cminus_semantic tc2.txt                                                                 ─╯
@@ -227,7 +227,7 @@ Computer Software engineering Department 2017029589 류지범
 
   - void variable & void array
 
-    - <img src="/Users/lordly/Desktop/Hanyang/2021_2학기/Compilers/무제 폴더/tc3.png" alt="tc3" style="zoom:50%;" />
+    - <img src="https://github.com/llordly/ELE4029/blob/master/3_Semantic/tc3.png?raw=true" alt="tc3" style="zoom:50%;" />
 
     - ```
       ❯ ./cminus_semantic tc3.txt                                                                 ─╯
@@ -241,7 +241,7 @@ Computer Software engineering Department 2017029589 류지범
 
   - incompatible type error
 
-    - <img src="/Users/lordly/Desktop/Hanyang/2021_2학기/Compilers/무제 폴더/tc4.png" alt="tc4" style="zoom:50%;" />
+    - <img src="https://github.com/llordly/ELE4029/blob/master/3_Semantic/tc4.png?raw=true" alt="tc4" style="zoom:50%;" />
 
     - ```
       ❯ ./cminus_semantic tc4.txt                                                                 ─╯
@@ -257,7 +257,7 @@ Computer Software engineering Department 2017029589 류지범
 
   - wrong loop condition
 
-    - <img src="/Users/lordly/Desktop/Hanyang/2021_2학기/Compilers/무제 폴더/tc5.png" alt="tc5" style="zoom:50%;" />
+    - <img src="https://github.com/llordly/ELE4029/blob/master/3_Semantic/tc5.png?raw=true" alt="tc5" style="zoom:50%;" />
 
     - ```
       ❯ ./cminus_semantic tc5.txt                                                                 ─╯
@@ -270,7 +270,7 @@ Computer Software engineering Department 2017029589 류지범
 
   - invalid assign & invalid return
 
-    - <img src="/Users/lordly/Desktop/Hanyang/2021_2학기/Compilers/무제 폴더/tc6.png" alt="tc6" style="zoom:50%;" />
+    - <img src="https://github.com/llordly/ELE4029/blob/master/3_Semantic/tc6.png?raw=true" alt="tc6" style="zoom:50%;" />
 
     - ```
       ❯ ./cminus_semantic tc6.txt                                                                 ─╯
@@ -284,7 +284,7 @@ Computer Software engineering Department 2017029589 류지범
 
   - no return statement
 
-    - <img src="/Users/lordly/Desktop/Hanyang/2021_2학기/Compilers/무제 폴더/tc7.png" alt="tc7" style="zoom:50%;" />
+    - <img src="https://github.com/llordly/ELE4029/blob/master/3_Semantic/tc7.png?raw=true" alt="tc7" style="zoom:50%;" />
 
     - ```
       ❯ ./cminus_semantic tc7.txt                                                                 ─╯
@@ -295,7 +295,7 @@ Computer Software engineering Department 2017029589 류지범
 
   - Indice type error (not integer)
 
-    - <img src="/Users/lordly/Desktop/Hanyang/2021_2학기/Compilers/무제 폴더/tc8.png" alt="tc8" style="zoom:50%;" />
+    - <img src="https://github.com/llordly/ELE4029/blob/master/3_Semantic/tc8.png?raw=true" alt="tc8" style="zoom:50%;" />
 
     - ```
       ❯ ./cminus_semantic tc8.txt                                                                       ─╯
