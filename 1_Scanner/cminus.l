@@ -52,17 +52,13 @@ whitespace  [ \t]+
 {newline}       {lineno++;}
 {whitespace}    {/* skip whitespace */}
 "/*"             { char c;
-                  do
-                  {
-                  do
-                  { c = input();
-                    if (c == EOF || c =='\0') break;
-                    if (c == '\n') lineno++;
-                  } while (c != '*');
-                  c = input();
-                  if (c == EOF || c == '\0') break;
-                  if (c == '\n') lineno++;
-                  } while (c != '/');
+                   int check = 0;
+                   do
+                   { c = input();
+                     if (c == EOF || c == '\0' || (c == '/' && check)) break;
+                     if (c == '\n') lineno++;
+                     check = (c == '*');
+                   } while (1);
                 }
 .               {return ERROR;}
 
